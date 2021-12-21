@@ -1,0 +1,147 @@
+* {
+  font-family: 'Hind', sans-serif;
+}
+
+html, body {
+  background-color: #e5e5e5;
+}
+
+hr {
+  color: #474747;
+  opacity: 0.5;
+  height: 2px;
+  margin: 1.5rem 0 1.5rem 0;
+}
+
+.header {
+  margin-top: 3rem;
+}
+
+.header .name {
+  font-size: 3rem;
+  line-height: 2.8rem;
+  font-weight: 500;
+  max-width: 10rem;
+}
+
+.header .position {
+  margin-top: 0.5rem;
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+  font-weight: 300;
+}
+
+.header .city {
+  margin-bottom: 0.125rem;
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+  font-weight: 500;
+}
+
+.header .contact-prefix {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.header .contact-content {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 300;
+  color: black;
+}
+
+.header .contact-content:hover {
+  color: #908E8F;
+}
+
+section .project:not(:first-of-type) {
+  margin-top: 2.5rem;
+}
+
+section .project .name {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+section .project .date {
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+section .project .content {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+.history-item {
+  color: #474747;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  position: relative;
+}
+
+.history-item-title {
+  font-size: 1.0625rem;
+  font-weight: 500;
+}
+
+.history-item-description {
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 0.875rem;
+  font-weight: 300;
+}
+
+.history-item::before {
+  content: '';
+  position: absolute;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  top: 0.25rem;
+  left: -2rem;
+  width: 0.875rem;
+  height: 0.875rem;
+  border-radius: 7.5px;
+  background-color: #908E8F;
+}
+
+ul {
+  padding-left: 1rem;
+}
+
+ul li::marker {
+  font-size: 0.75rem;
+}
+
+p, ul {
+  margin-bottom: 0.875rem;
+}
+
+.vertical-line {
+  border-left: 0.125rem solid #908E8F;
+}
+
+section .title {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+ul.skills {
+  font-size: 1rem;
+  margin-bottom: 0rem;
+}
+
+ul.skills li > div {
+  display: inline-block;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+ul.skills li::marker {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: #908E8F;
+}
+/*# sourceMappingURL=main.css.map */
